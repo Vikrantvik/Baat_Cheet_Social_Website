@@ -1,0 +1,106 @@
+.register {
+  height: 100vh;
+  background: linear-gradient(rgba(252, 62, 62, 0.5), rgba(96, 66, 11, 0.5)),
+    url("https://cdn.bhdw.net/im/white-marguerite-flower-wallpaper-53721_w635.webp") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 2px 14px black;
+}
+
+.card {
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: white;
+  border-radius: 40% 20% 40%;
+  min-height: 700px;
+  overflow: hidden;
+  box-shadow: 14px 2px 13px black;
+}
+
+.card .left {
+  flex: 1;
+  background: linear-gradient(rgba(231, 113, 2, 0.5), rgba(96, 49, 11, 0.5)),
+    url("https://cdn4.vectorstock.com/i/1000x1000/05/23/social-media-background-network-concept-vector-16150523.jpg")
+      center;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.card .left h1 {
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 3px 5px black;
+}
+
+.card .left span {
+  font-size: 14px;
+  
+}
+
+.card .left button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: rgb(73, 0, 146);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.card .left button:hover {
+  background-color: #6d1111;
+  transform: scale(1.1);
+}
+
+.card .right {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+}
+
+.card .right h1 {
+  color: #555;
+  align-self: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card .right form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card .right form input {
+  border: none;
+  border-bottom: 1px solid rgb(500, 200, 211);
+  padding: 20px 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.card .right form button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: #6e6e7a;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card .right form button:hover {
+  background-color: #6d1111;
+  transform: scale(1.1);
+}

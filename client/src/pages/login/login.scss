@@ -1,0 +1,100 @@
+.register {
+  height: 100vh;
+  background: linear-gradient(rgba(218, 218, 218, 0.5), rgba(96, 66, 11, 0.5)),
+              url("https://cdn.bhdw.net/im/white-marguerite-flower-wallpaper-53721_w635.webp") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 2px 14px black;
+}
+.login {
+  height: 100vh;
+  background-color: rgb(193, 190, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 50%;
+    display: flex;
+    background-color: white;
+    border-radius: 40%  20%   40%;
+    min-height: 700px;
+    overflow: hidden;
+    box-shadow:3px 2px 14px black;
+    .left {
+      flex: 1;
+      background: linear-gradient(rgba(231, 113, 2, 0.5), rgba(96, 49, 11, 0.5)),
+        url("https://st4.depositphotos.com/7929608/22261/i/450/depositphotos_222619216-stock-photo-concept-social-media-different-social.jpg")
+          center;
+      background-size: cover;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+
+      h1 {
+        font-size: 100px;
+        line-height: 100px;
+      }
+      
+     
+
+      span {
+        font-size: 14px;
+      }
+      
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background-color: white;
+        color: rebeccapurple;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+
+      h1 {
+      color: #555;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 3rem;
+      
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+        input {
+        border: none;
+        border-bottom: 1px solid lightgray;
+        padding: 20px 10px;
+        font-size: 1rem;
+        }
+        
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color: #938eef;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
